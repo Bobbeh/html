@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 1em/1.88 Lato;
+  color: rgb(155, 155, 155);
+}
+
+.article {
+  float: left;
+  clear: both;
+}
+
+.article .wrapper {
+  padding-bottom: 50px;
+}
+
+.first {
+  float: left;
+  width: 48%;
+  margin-left: 10px;
+}
+
+.header {
+  position: relative;
+  float: left;
+  width: 100%;
+  max-width: 1200px;
+  height: 100px;
+  margin-top: 75px;
+}
+
+.informatie {
+  float: left;
+  width: 200px;
+  height: 100px;
+  min-height: 16px;
+  padding-top: 37px;
+  background-color: rgb(105, 210, 231);
+  font-size: 1.125em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: rgb(255, 255, 255);
+}
+
+.leren,
+.menu .kopen {
+  float: left;
+  width: 200px;
+  height: 100px;
+  min-height: 16px;
+  padding-top: 37px;
+  font-size: 1.125em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: rgb(171, 171, 171);
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 395px;
+  height: auto;
+  margin: 16px 0 0 10px;
+  overflow: hidden;
+}
+
+.menu {
+  float: right;
+  width: 600px;
+  max-width: 600px;
+  height: 100px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.second {
+  float: right;
+  width: 48%;
+  margin-right: 10px;
+}
+
+.first .article,
+.second .article {
+  margin: 10px 0 0 10px;
+  font-size: 1em;
+  word-spacing: -1px;
+  color: rgb(155, 155, 155);
+}
+
+.first .title,
+.second .title {
+  margin: 50px 0 0 10px;
+  font: 400 1.75em/1.38 Bitter;
+  color: rgb(155, 155, 155);
+}
+
+.silhouette {
+  float: left;
+  width: 100%;
+  background-image: url('../images/lady.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: left top;
+  background-attachment: fixed;
+}
+
+.title {
+  float: left;
+}
+
+.silhouette .titlesub,
+.title .titlesub {
+  font: !consolidated !consolidated !consolidated !consolidated;
+}
+
+.titlemain {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  min-height: 52px;
+  font-size: 2.625em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(105, 210, 231);
+}
+
+.titlesub {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 24px;
+  margin-top: 5px;
+  font: italic 400 0.875em/1.38 Bitter;
+  text-align: center;
+  color: rgb(155, 155, 155);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.article .title,
+.wrapper .title {
+  font: !consolidated !consolidated !consolidated;
+}
+
+.article-1 {
+  width: 100%;
+  margin-top: 100px;
+  background-color: #fcfaf8;
+}
+
+.title-1 {
+  clear: both;
+  width: 100%;
+  margin-top: 125px;
+}
